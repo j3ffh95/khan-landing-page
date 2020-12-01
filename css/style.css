@@ -43,10 +43,100 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
+  /* height: 60px; */
+  /* overflow: hidden; */
+  /* background-color: lightcoral; */
+  border-bottom: 1px solid #ddd;
+}
+
+.nav {
+  height: 60px;
+  /* background-color: red; */
+  color: var(--clr-primary);
+}
+
+.nav a {
+  color: var(--clr-primary);
+}
+
+.nav > * {
+  float: left;
+}
+
+.left-nav > * {
+  float: left;
+}
+
+.left-nav {
+  /* overflow: hidden; */
+  width: 30%;
+  padding-top: 1em;
+}
+
+::placeholder {
+  color: var(--clr-primary);
+  opacity: 1;
+}
+
+.search-form {
+  position: relative;
+}
+
+#search-input {
+  width: 60%;
+  margin-left: 1.5em;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 0.3em;
+  background-color: #ddd;
+}
+
+.icon {
+  position: absolute;
+  left: 166px;
+  top: 5px;
+}
+
+.logo > * {
+  float: left;
+}
+
+.logo {
+  padding: 0.5em 11%;
+  color: #333;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: var(--clr-primary);
+}
+
+.logo-img {
+  width: 2rem;
+}
+
+.nav-list > * {
+  float: left;
+}
+
+.nav-list {
+  width: 30%;
 }
 
 footer {
