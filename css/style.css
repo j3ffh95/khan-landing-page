@@ -147,6 +147,52 @@ header {
   padding-left: 6em;
 }
 
+/* Main Section */
+.main-section {
+  overflow: hidden;
+  margin-top: 4em;
+}
+
+.main-section > * {
+  float: left;
+}
+
+.img-section {
+  width: 50%;
+}
+
+.text-content {
+  width: 50%;
+  margin-top: 5em;
+}
+
+.main-content {
+  font-size: 3.5em;
+  line-height: 0.9;
+  font-weight: normal;
+  width: 90%;
+}
+
+.links {
+  margin-top: 2em;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: var(--clr-primary);
+  border-radius: 5px;
+  margin-right: 0.5em;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px var(--clr-primary);
+}
+
 footer {
 }
 
